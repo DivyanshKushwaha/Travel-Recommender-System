@@ -116,6 +116,29 @@ This Recommendation system consists of three core techniques:
 - Flask processes input and queries the ML model.
 - Personalized recommendations are displayed.
 
+### How to run the flask app 
+
+- Copy the git repository by giving command 
+```bash 
+git clone https://github.com/DivyanshKushwaha/Travel-Recommender-System.git
+cd Travel-Recommender-System
+```
+
+- Create a conda environment
+```bash
+conda create -n myvenv python=3.10 -y
+conda activate myvenv
+``` 
+
+- Install dependencies 
+```bash 
+pip install -r requirements.txt 
+```
+- Run the flask app
+```bash 
+python app.py
+```
+ 
 ## Scalability and Future Enhancements
 - Optimized ML models for handling large-scale data.
 - Parallel computations for faster response times.
