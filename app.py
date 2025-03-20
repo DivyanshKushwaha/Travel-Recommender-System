@@ -10,7 +10,7 @@ app = Flask(__name__)
 # Load datasets and models
 features = ['Name_x', 'State', 'Type', 'BestTimeToVisit', 'Preferences', 'Gender', 'NumberOfAdults', 'NumberOfChildren']
 model = pickle.load(open('models/model.pkl','rb'))
-label_encoders = pickle.load(open('model/label_encoders.pkl','rb'))
+label_encoders = pickle.load(open('models/label_encoders.pkl','rb'))
 
 destinations_df = pd.read_csv("data/destinations.csv")
 userhistory_df = pd.read_csv("data/user_history.csv")
