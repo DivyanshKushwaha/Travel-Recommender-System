@@ -1,6 +1,11 @@
 ## AI-Powered Travel Recommendation System
 
 The Smart Travel Recommendation System is an AI-powered feature designed to enhance the user experience by providing personalized travel destination recommendations based on user preferences, demographics, and past interactions.
+- Home Page
+![Image](https://github.com/user-attachments/assets/74280ab2-a4d6-4130-8dea-7218d7a8b620)
+
+- Recommendation Page
+![Image](https://github.com/user-attachments/assets/bb78ddce-16a4-4303-8dcc-6a8b5888f6ec)
 
 **This system leverages machine learning algorithms such as:**
 
